@@ -7,22 +7,54 @@ body{
 }
 
 /* Header */ 
+
 header{
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 10vh;
-    background-color: pink;
     position: fixed;
     top:0;
     width: 100%;
+    /*
+    background-color: pink; */
+    background: rgba(22, 146, 196, 0.5);
+}
+
+.restaurantName{
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    /* color: white; */
+    background: linear-gradient(to right, pink 0%, white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 li {
     display: inline;
 }
 
-#homeBackground{
+.navBtn{
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 20px 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navBtn:focus{
+    outline: none;
+    color: red;
+}
+
+.navBtn:hover{
+    color: pink;
+}
+
+/* Home page */
+
+.content{
     background: url('./images/icecream.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,4 +63,57 @@ li {
     height: 100vh;
 }
 
+#homeContent{
+    font-family: 'Quicksand', sans-serif;
+}
 
+#homeMessage{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    /* min font size 35px, max 50px */
+    font-size: calc(35px + (50 - 35) * ((100vw - 300px) / (1920 - 300)));
+    background: linear-gradient(to right,#fe2c54 0%, white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#homeInfo{
+    position: absolute;
+    top: 45%;
+    right: 12%;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 30px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+#address{
+    display: flex;
+    align-items: center;
+}
+
+/*
+#homeInfo span{
+    margin-left: 50px;
+}
+*/
+
+#homeInfo i{
+    font-size: 35px;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#address{
+    display: flex;
+    align-items: center;
+}
+
+#hours{
+    display: flex;
+}
