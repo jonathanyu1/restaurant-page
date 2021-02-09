@@ -3,9 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <title>Restaurant Page</title>
+    <link rel='stylesheet' href='styles.css'>
   </head>
-  <body>
-    <div id='content'></div>
+  <body class='bodyContainer'>
+    <div id='content'>
+        <header>
+            <h1 class='restaurantName'>Dairy King</h1>
+            <ul class='navBarBtns'>
+                <li><button id='homeBtn' class='navBtn'>Home</button></li>
+                <li><button id='menuBtn' class='navBtn'>Menu</button></li>
+                <li><button id='aboutBtn' class='navBtn'>About Us</button></li>
+            </ul>
+        </header>
+        <div class='bodyContent'>
+            <div id='homeBackground'></div>
+            <div id='homeMessage'></div>
+            <div id='homeHours'></div>
+        </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
