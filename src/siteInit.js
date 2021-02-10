@@ -1,4 +1,4 @@
-const siteInit = (() => {
+const siteInit = () => {
     const content = document.querySelector('#content');
     content.innerHTML+=`<header>
                             <h1 class='restaurantName'>Lactose King</h1>
@@ -26,6 +26,6 @@ const siteInit = (() => {
                                 </div>
                             </div>
                         </div>`
-})();
+};
 
 export {siteInit}
