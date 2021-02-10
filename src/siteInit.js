@@ -1,11 +1,11 @@
 import {homeInit} from './home';
 import {menuInit} from './menu';
-// import {contactInit} from './contact';
+import {contactInit} from './contact';
 
 const siteInit = () => {
     homeInit();
     menuInit();
-    // contactInit();
+    contactInit();
 };
 
 export {siteInit}
