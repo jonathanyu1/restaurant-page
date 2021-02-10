@@ -6,6 +6,10 @@ body{
     margin: 0px;
 }
 
+.hideContent{
+    display: none;
+}
+
 /* Header */ 
 
 header{
@@ -55,11 +59,15 @@ li {
 /* Home page */
 
 .content{
+    /*
     background: url('./images/icecream.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    */
+    background: url('./images/icecream.jpg') no-repeat fixed center;
+    background-size: cover;
     height: 100vh;
 }
 
