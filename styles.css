@@ -25,15 +25,12 @@ header{
     position: absolute;
     top:0;
     width: 100%;
-    /*
-    background-color: pink; */
     background: rgba(22, 146, 196, 0.5);
 }
 
 .restaurantName{
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
-    /* color: white; */
     background: linear-gradient(to right, pink 0%, white 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -64,13 +61,6 @@ li {
 /* Home page */
 
 .bodyContainer{
-    /*
-    background: url('./images/icecream.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    */
     background: url('./images/icecream.jpg') no-repeat fixed center;
     background-size: cover;
     height: 100%;
@@ -108,12 +98,6 @@ li {
     display: flex;
     align-items: center;
 }
-
-/*
-#homeInfo span{
-    margin-left: 50px;
-}
-*/
 
 #homeInfo i{
     font-size: 35px;
