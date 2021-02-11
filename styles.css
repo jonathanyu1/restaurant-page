@@ -172,7 +172,62 @@ li {
 
 /* Contact */
 
+#contactTitle{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 15%;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration-line: underline;
+}
+
+#contactContainer{
+    left:0;
+    right:0;
+    margin: 0 auto;
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 25%;
+    background-color: white;
+    border: 15px solid rgb(22, 146, 196);
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
 #mapContainer{
-    width: 400px;
-    height: 400px;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+#infoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-top: -50px;
+}
+
+#infoContainer i{
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(22, 146, 196);
+}
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.hours{
+    display: flex;
+}
+
+#hoursText span{
+    margin-right: 100px;
 }
