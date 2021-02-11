@@ -3,7 +3,6 @@ import {siteInit} from './siteInit';
 const siteFlow = (()=>{
     // initialize site homepage
     siteInit();
-    // const content = document.querySelector('#content');
     const bodyContainer = document.querySelector('.bodyContainer');
     const homeBtn =  document.querySelector('#homeBtn');
     const menuBtn = document.querySelector('#menuBtn');
@@ -39,5 +38,3 @@ const siteFlow = (()=>{
         bodyContainer.style.backgroundSize = `cover`;
     });
 })();
-
-//37.42240404764914, -122.0838223363647 lat long
