@@ -1,4 +1,3 @@
-console.log('test setup');
 import {siteInit} from './siteInit';
 
 const siteFlow = (()=>{
@@ -15,7 +14,7 @@ const siteFlow = (()=>{
     // hide menu and contact initially
     menuContent.classList.add('hideContent');
     contactContent.classList.add('hideContent');
-    
+
     homeBtn.addEventListener('click', () => {
         homeContent.classList.remove('hideContent');
         menuContent.classList.add('hideContent');
